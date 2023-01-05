@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<node type="filter">
+	<label>2160p</label>
+	<content>movies</content>
+	<rule field="videoresolution" operator="greaterthan">
+		<value>1920</value>
+	</rule>
+</node>

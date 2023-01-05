@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<node type="filter">
+	<label>IMAX</label> <!-- or Open Matte -->
+	<content>movies</content>
+	<rule field="videoaspect" operator="lessthan">
+		<value>1.91</value>
+	</rule>
+	<rule field="videoresolution" operator="greaterthan">
+		<value>577</value>
+	</rule>
+</node>

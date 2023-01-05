@@ -1,0 +1,8 @@
+﻿[B]v1.0.0[/B]
+• Initial mod release
+• Nodes list increased from 20 to 25
+• Removed Recent and in progress movies, albums and TV Shows bars
+• Removed recently added and played Albums bar
+• Added Year and Rating on InfoWall title
+• Increased Title and Tag height in InfoWall
+• Added custom icons for Resolution and Video and Audio

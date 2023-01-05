@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<node type="filter">
+	<label>Sword & Sandal</label>
+	<content>movies</content>
+	<rule field="tag" operator="contains">
+		<value>Sword & Sandal</value>
+	</rule>
+</node>

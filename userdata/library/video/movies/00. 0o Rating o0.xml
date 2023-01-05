@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<node type="filter">
+	<label>- Rating -</label>
+	<content>movies</content>
+	<rule field="rating" operator="greaterthan">
+		<value>7.7</value>
+	</rule>
+</node>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<node type="filter">
+	<label>1980s</label>
+	<content>movies</content>
+	<rule field="year" operator="greaterthan">
+		<value>1979</value>
+	</rule>
+	<rule field="year" operator="lessthan">
+		<value>1990</value>
+	</rule>
+</node>
