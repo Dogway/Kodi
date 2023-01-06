@@ -1,4 +1,13 @@
 # script.tagoverview-nexus
+
+JAN 06 2022
+Updated for Kodi Nexus. Merged back [bacon-cheeseburger](https://github.com/bacon-cheeseburger/script.tagoverview) latest updates + cosmetics.
+
+JAN 20 2021
+Updated for Kodi Matrix (python3), no backwards compatibility included.
+
+========================================
+
 Reviving and updating the Tag Overview created by olivaar.   A way to manage tags in Kodi.  You can put this in your keymap to run the script by pressing the t key: &lt;t&gt;RunScript(script.tagoverview)&lt;/t&gt;
 
 Or this using JSON:

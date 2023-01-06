@@ -1,23 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.tagoverview-nexus" name="Tag Overview" version="0.2.0" provider-name="fnord12 via olivaar (with teriyaki Matrix update)">
+<addon id="script.tagoverview-nexus" name="Tag Overview" version="0.2.0" provider-name="fnord12 -> olivaar -> teriyaki -> dogway">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
 	<extension point="xbmc.python.script" library="default.py">
 		<provides>executable</provides>
 	</extension>
-
 	<extension point="kodi.context.item">
-    <menu id="kodi.core.main">
-      <item library="default.py">
-        <label>32000</label>
-        <visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,musicvideo)</visible>
-      </item>
-    </menu>
-  </extension>
-
-
-
+		<menu id="kodi.core.main">
+			<item library="default.py">
+			        <label>32000</label>
+				<visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,musicvideo)</visible>
+			</item>
+		</menu>
+	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">A quick way to edit tags and see an overview of all tags.</summary>
 		<description lang="en_GB">Reviving and updating the Tag Overview created by olivaar.  You can put this in your keymap to run the script by pressing the t key: &lt;t&gt;RunScript(script.tagoverview)&lt;/t&gt;</description>
@@ -28,11 +24,11 @@
 		<forum>https://forum.kodi.tv/showthread.php?tid=353783&pid=2943593#pid2943593</forum>
 
 		<news>Updated for Nexus.  Added mouse support.  Added support for stacked movies.  Updated sorting.  Added context menu.  Added delete confirmation.</news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.jpg</fanart>
-    </assets>
-</extension>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
 </addon>
 
 
