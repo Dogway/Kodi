@@ -56,6 +56,8 @@
 							<param name="additional_movie_items" value="true"/>
 							<param name="widget_header" value="$LOCALIZE[31148]"/>
 							<param name="widget_target" value="videos"/>
+							<param name="sortby" value="year"/>
+							<param name="sortorder" value="descending"/>
 							<param name="list_id" value="5900"/>
 						</include>
 						<include content="WidgetListPoster" condition="Library.HasContent(movies)">
@@ -82,7 +84,8 @@
 							<param name="content_path" value="videodb://movies/sets/"/>
 							<param name="widget_header" value="$LOCALIZE[31075]"/>
 							<param name="widget_target" value="videos"/>
-							<param name="sortby" value="random"/>
+							<param name="sortby" value="year"/>
+							<param name="sortorder" value="ascending"/>
 							<param name="list_id" value="5600"/>
 							<param name="onclick_condition" value="true"/>
 							<param name="onclick_action" value="$VAR[MovieSetOnClickActionVar]"/>
