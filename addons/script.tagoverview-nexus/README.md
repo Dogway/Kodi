@@ -35,9 +35,9 @@ A tip if using MYSQL:
 
 * Accounted for 3 digit database numbers (MyVideos121.db)
 * Replaced deprecated functions (e.g. StringCompare)
-* Replaced with xbmcvfs module
 * Replaced .xml language file with .po
-* Smaller UI updates
+* Replaced with xbmcvfs module
+* Updated to Estuary skin
 
 ## Additional improvements:
 * Added mouse support (previously selection could only occur with Enter button).  
@@ -48,8 +48,5 @@ A tip if using MYSQL:
 * Put Tag name on movie/show window header when adding to a tag from the Overview screen.
 
 ## Notes / warnings:
-* Not tested in Jarvis or earlier.  Probably won't work due to 2 digit database numbers.
-* Also not tested in Matrix.
-* The addon was originally coded for Confluence skin and matches that style.  Should still work in other skins (tested in Estuary).
 * Be careful when using mouse to select.  If you moved your mouse quickly before the next menu appears, selection may have changed.
 * I'm not an experienced coder, so use at your own risk.
