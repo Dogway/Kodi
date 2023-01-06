@@ -39,16 +39,66 @@
 						<left>30</left>
 						<width>550</width>
 						<aligny>center</aligny>
+						<height>120</height>
+						<font>font36_title</font>
+						<label>($INFO[ListItem.Year])</label>
+						<visible>[String.IsEmpty(ListItem.UserRating) + String.IsEmpty(ListItem.Rating)] + !Container.Content(MusicVideos)</visible>
+					</control>
+					<control type="textbox">
+						<top>120</top>
+						<left>30</left>
+						<width>550</width>
+						<aligny>center</aligny>
+						<height>120</height>
+						<font>font36_title</font>
+						<label>($INFO[ListItem.Year])                IMDb: $INFO[ListItem.Rating]</label>
+						<visible>[String.IsEmpty(ListItem.UserRating)] + !Container.Content(MusicVideos)</visible>
+					</control>
+					<control type="textbox">
+						<top>120</top>
+						<left>30</left>
+						<width>550</width>
+						<aligny>center</aligny>
+						<height>120</height>
+						<font>font36_title</font>
+						<label>($INFO[ListItem.Year])  MR: $INFO[ListItem.UserRating]   IMDb: $INFO[ListItem.Rating]</label>
+						<visible>!String.IsEmpty(ListItem.UserRating) + !String.IsEmpty(ListItem.UserRating) + !String.IsEmpty(ListItem.Rating) + !Container.Content(MusicVideos)</visible>
+					</control>
+					<control type="textbox">
+						<top>180</top>
+						<left>30</left>
+						<width>550</width>
+						<aligny>center</aligny>
+						<height>120</height>
+						<font>font36_title</font>
+						<label>$INFO[ListItem.Label][CR]</label>
+						<visible>!Container.Content(MusicVideos)</visible>
+					</control>
+					<control type="textbox">
+						<top>120</top>
+						<left>30</left>
+						<width>550</width>
+						<aligny>center</aligny>
 						<height>190</height>
 						<font>font36_title</font>
-						<label>($INFO[ListItem.Year])      Rating: $INFO[ListItem.Rating][CR]$INFO[ListItem.Label]</label>
+						<label>($INFO[ListItem.Year])[CR]$INFO[ListItem.Label]</label>
+						<visible>Container.Content(MusicVideos)</visible>
 					</control>
 					<control type="textbox">
 						<left>30</left>
 						<top>330</top>
 						<width>525</width>
 						<bottom>100</bottom>
-						<visible>![ListItem.IsCollection + String.IsEmpty(ListItem.Plot)]</visible>
+						<visible>!ListItem.IsCollection + !String.IsEmpty(ListItem.Plot)</visible>
+						<label>$INFO[ListItem.Tagline,[I],[/I][CR][CR]]$INFO[ListItem.Plot][CR][CR]</label>
+						<autoscroll delay="10000" time="3000" repeat="10000">Skin.HasSetting(autoscroll)</autoscroll>
+					</control>
+					<control type="textbox">
+						<left>30</left>
+						<top>600</top>
+						<width>525</width>
+						<bottom>100</bottom>
+						<visible>ListItem.IsCollection + !String.IsEmpty(ListItem.Plot)</visible>
 						<label>$INFO[ListItem.Tagline,[I],[/I][CR][CR]]$INFO[ListItem.Plot][CR][CR]</label>
 						<autoscroll delay="10000" time="3000" repeat="10000">Skin.HasSetting(autoscroll)</autoscroll>
 					</control>
@@ -66,8 +116,8 @@
 					</control>
 					<control type="group">
 						<left>20</left>
-						<top>265</top>
-						<visible>ListItem.IsCollection + String.IsEmpty(ListItem.Plot)</visible>
+						<top>300</top>
+						<visible>ListItem.IsCollection</visible>
 						<include content="InfoList">
 							<param name="bottom" value="108" />
 							<param name="width" value="540" />
@@ -104,7 +154,7 @@
 						<include>MediaMenuItemsCommon</include>
 						<label>$LOCALIZE[20367]</label>
 						<label2>[B]$INFO[Container.NumItems][/B]</label2>
-						<visible>Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.content(seasons) | Container.Content(episodes) | Container.Content(MusicVideos)</visible>
+						<visible>Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.content(seasons) | Container.Content(episodes)</visible>
 					</control>
 					<control type="label" id="203">
 						<include>MediaMenuLabelCommon</include>
