@@ -81,7 +81,7 @@
 						<aligny>center</aligny>
 						<height>190</height>
 						<font>font36_title</font>
-						<label>($INFO[ListItem.Year])[CR]$INFO[ListItem.Label]</label>
+						<label>($INFO[ListItem.Year])[CR]$INFO[ListItem.Artist] - $INFO[ListItem.Title]</label>
 						<visible>Container.Content(MusicVideos)</visible>
 					</control>
 					<control type="textbox">
