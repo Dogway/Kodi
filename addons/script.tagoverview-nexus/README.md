@@ -26,7 +26,7 @@ A tip if using MYSQL:
 
 * Accounted for 3 digit database numbers (MyVideos121.db)
 * Replaced deprecated functions (e.g. StringCompare)
-* Replaced with xbmcvfs calls
+* Replaced with xbmcvfs module
 * Replaced .xml language file with .po
 * Smaller UI updates
 
