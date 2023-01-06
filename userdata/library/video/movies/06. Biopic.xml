@@ -3,6 +3,12 @@
 	<label>Biopic</label>
 	<content>movies</content>
 	<rule field="tag" operator="contains">
-		<value>Biopic</value>
+		<value>true story</value>
+	</rule>
+	<rule field="tag" operator="contains">
+		<value>biography</value>
+	</rule>
+	<rule field="tag" operator="contains">
+		<value>biopic</value>
 	</rule>
 </node>

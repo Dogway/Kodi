@@ -2,7 +2,7 @@
 <node type="filter">
 	<label>Dolby Vision</label>
 	<content>movies</content>
-	<rule field="tag" operator="contains">
+	<rule field="tag" operator="is">
 		<value>DV</value>
 	</rule>
 </node>

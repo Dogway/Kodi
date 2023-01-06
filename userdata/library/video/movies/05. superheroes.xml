@@ -3,6 +3,6 @@
 	<label>Superheroes</label>
 	<content>movies</content>
 	<rule field="tag" operator="contains">
-		<value>superheroes</value>
+		<value>superhero</value>
 	</rule>
 </node>

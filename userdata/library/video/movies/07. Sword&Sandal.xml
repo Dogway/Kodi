@@ -2,7 +2,10 @@
 <node type="filter">
 	<label>Sword & Sandal</label>
 	<content>movies</content>
-	<rule field="tag" operator="contains">
+	<rule field="tag" operator="is">
 		<value>Sword & Sandal</value>
+	</rule>
+	<rule field="tag" operator="contains">
+		<value>peplum</value>
 	</rule>
 </node>
