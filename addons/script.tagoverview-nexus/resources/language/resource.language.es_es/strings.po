@@ -1,0 +1,121 @@
+# Kodi Media Center language file
+# Addon Name: Tag Overview
+# Addon id: script.tagoverview
+msgid ""
+msgstr ""
+
+msgctxt "#32000"
+msgid "Etiquetas"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Seleccionar Etiquetas"
+msgstr ""
+
+msgctxt "#40025"
+msgid "¿Estás seguro?"
+msgstr ""
+
+msgctxt "#50000"
+msgid "Nueva Etiqueta"
+msgstr ""
+
+msgctxt "#50001"
+msgid "Nombre de archivo"
+msgstr ""
+
+msgctxt "#50002"
+msgid "Añadir Etiquetas"
+msgstr ""
+
+msgctxt "#50003"
+msgid "Añadir Película"
+msgstr ""
+
+msgctxt "#50004"
+msgid "Vista General de Etiquetas"
+msgstr ""
+
+msgctxt "#50005"
+msgid "                                                          ETIQUETAS"
+msgstr ""
+
+msgctxt "#50006"
+msgid "MUSICA"
+msgstr ""
+
+msgctxt "#50007"
+msgid "PELICULAS"
+msgstr ""
+
+msgctxt "#50008"
+msgid "SERIES"
+msgstr ""
+
+msgctxt "#50009"
+msgid "PELICULAS ASIGNADAS"
+msgstr ""
+
+
+msgctxt "#50010"
+msgid "Mostrar Películas etiquetadas"
+msgstr ""
+
+msgctxt "#50011"
+msgid "Mostrar Series etiquetadas"
+msgstr ""
+
+msgctxt "#50012"
+msgid "Mostrar Videoclips etiquetados"
+msgstr ""
+
+msgctxt "#50013"
+msgid "Eliminar esta etiqueta"
+msgstr ""
+
+msgctxt "#50014"
+msgid "Haz una selección"
+msgstr ""
+
+msgctxt "#50015"
+msgid "Administración de Etiquetas"
+msgstr ""
+
+msgctxt "#50016"
+msgid "No implementado"
+msgstr ""
+
+msgctxt "#50017"
+msgid "Sin Etiqueta"
+msgstr ""
+
+msgctxt "#50018"
+msgid "Añadir Videoclip"
+msgstr ""
+
+msgctxt "#50019"
+msgid "Añadir Serie"
+msgstr ""
+
+msgctxt "#50020"
+msgid "Opciones Generales"
+msgstr ""
+
+msgctxt "#50021"
+msgid "¿Usar database MySQL?"
+msgstr ""
+
+msgctxt "#50022"
+msgid "Usuario MySQL"
+msgstr ""
+
+msgctxt "#50023"
+msgid "Contraseña de MySQL"
+msgstr ""
+
+msgctxt "#50024"
+msgid "Dirección Host"
+msgstr ""
+    
+
+    
