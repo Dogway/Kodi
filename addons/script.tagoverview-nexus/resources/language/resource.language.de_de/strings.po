@@ -1,122 +1,125 @@
 # Kodi Media Center language file
 # Addon Name: Tag Overview
-# Addon id: script.tagoverview
+# Addon id: script.tagoverview-nexus
 msgid ""
 msgstr ""
 
 msgctxt "#32000"
 msgid "Tags"
-msgstr ""
+msgstr "Tags"
 
 msgctxt "#32001"
-msgid "Wählen Tags"
-msgstr ""
+msgid "Select Tags"
+msgstr "Wählen Tags"
+
+msgctxt "#40025"
+msgid "Are you sure?"
+msgstr "Bist du sicher?"
 
 msgctxt "#50000"
-msgid "Neuer Tag"
-msgstr ""
+msgid "New Tag"
+msgstr "Neuer Tag"
 
 msgctxt "#50001"
-msgid "Dateiname"
-msgstr ""
+msgid "Filename"
+msgstr "Dateiname"
 
 msgctxt "#50002"
-msgid "Tags hinzufügen"
-msgstr ""
+msgid "Add Tags"
+msgstr "Tags hinzufügen"
 
 msgctxt "#50003"
-msgid "Film hinzufüge"
-msgstr ""
+msgid "Add Movie"
+msgstr "Film hinzufüge"
 
 msgctxt "#50004"
-msgid "Tag Übersicht"
-msgstr ""
+msgid "Tag Overview"
+msgstr "Tag Übersicht"
 
 msgctxt "#50005"
-msgid "Tag"
-msgstr ""
+msgid "                                                          TAGS"
+msgstr "                                                          TAGS"
 
 msgctxt "#50006"
-msgid "M.Video"
-msgstr ""
+msgid "MUSIC"
+msgstr "M.Video"
 
 msgctxt "#50007"
-msgid "Filme"
-msgstr ""
+msgid "MOVIES"
+msgstr "Filme"
 
 msgctxt "#50008"
-msgid "Serien"
-msgstr ""
+msgid "TV"
+msgstr "Serien"
 
 msgctxt "#50009"
-msgid ""
+msgid "Assigned Movies"
 msgstr "Zugeordnete Filme"
 
-
 msgctxt "#50010"
-msgid "Zeige Filme mit diesem Tag"
-msgstr ""
+msgid "Show tagged Movies"
+msgstr "Zeige Filme mit diesem Tag"
 
 msgctxt "#50011"
-msgid "Zeige Serien mit diesem Tag"
-msgstr ""
+msgid "Show tagged TV Shows"
+msgstr "Zeige Serien mit diesem Tag"
 
 msgctxt "#50012"
-msgid "Zeige Musikvideos mit diesem Tag"
-msgstr ""
+msgid "Show tagged Music Videos"
+msgstr "Zeige Musikvideos mit diesem Tag"
 
 msgctxt "#50013"
-msgid "Lösche diesen Tag"
-msgstr ""
+msgid "Delete this tag"
+msgstr "Lösche diesen Tag"
 
 msgctxt "#50014"
-msgid "Auswahl"
-msgstr ""
+msgid "Make a selection"
+msgstr "Auswahl"
 
 msgctxt "#50015"
-msgid "Tagsmanagement"
-msgstr ""
+msgid "Tag Management"
+msgstr "Tagsmanagement"
 
 msgctxt "#50016"
-msgid "Funktion nicht verfügbar"
-msgstr ""
+msgid "Not implemented"
+msgstr "Funktion nicht verfügbar"
 
 msgctxt "#50017"
-msgid "Ohne Tag"
-msgstr ""
+msgid "No Tag"
+msgstr "Ohne Tag"
 
 msgctxt "#50018"
-msgid "Musikvideo hinzufüge"
-msgstr ""
+msgid "Add Music Video"
+msgstr "Musikvideo hinzufüge"
 
 msgctxt "#50019"
-msgid "Serie hinzufügen"
-msgstr ""
+msgid "Add TV Show"
+msgstr "Serie hinzufügen"
 
 msgctxt "#50020"
-msgid "Einstellungen"
-msgstr ""
+msgid "General Settings"
+msgstr "Einstellungen"
 
 msgctxt "#50021"
-msgid "Benütze MySQL-Datenbank?"
-msgstr ""
+msgid "Use MySQL-Database?"
+msgstr "Benütze MySQL-Datenbank?"
 
 msgctxt "#50022"
-msgid "MySQL Benutzername"
-msgstr ""
+msgid "MySQL User"
+msgstr "MySQL Benutzername"
 
 msgctxt "#50023"
-msgid "MySQL Passwort"
-msgstr ""
+msgid "MySQL Password"
+msgstr "MySQL Passwort"
 
 msgctxt "#50024"
-msgid "Hostadresse"
-msgstr ""
+msgid "Host address"
+msgstr "Hostadresse"
     
 msgctxt "#50024"
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 msgctxt "#50025"
-msgid "Bitte bestätigen."
-msgstr ""
+msgid "Please confirm"
+msgstr "Bitte bestätigen."

@@ -1,121 +1,125 @@
 # Kodi Media Center language file
 # Addon Name: Tag Overview
-# Addon id: script.tagoverview
+# Addon id: script.tagoverview-nexus
 msgid ""
 msgstr ""
 
 msgctxt "#32000"
-msgid "Etiquetas"
-msgstr ""
+msgid "Tags"
+msgstr "Etiquetas"
 
 msgctxt "#32001"
-msgid "Seleccionar Etiquetas"
-msgstr ""
+msgid "Select Tags"
+msgstr "Seleccionar Etiquetas"
 
 msgctxt "#40025"
-msgid "¿Estás seguro?"
-msgstr ""
+msgid "Are you sure?"
+msgstr "¿Estás seguro?"
 
 msgctxt "#50000"
-msgid "Nueva Etiqueta"
-msgstr ""
+msgid "New Tag"
+msgstr "Nueva Etiqueta"
 
 msgctxt "#50001"
-msgid "Nombre de archivo"
-msgstr ""
+msgid "Filename"
+msgstr "Nombre de archivo"
 
 msgctxt "#50002"
-msgid "Añadir Etiquetas"
-msgstr ""
+msgid "Add Tags"
+msgstr "Añadir Etiquetas"
 
 msgctxt "#50003"
-msgid "Añadir Película"
-msgstr ""
+msgid "Add Movie"
+msgstr "Añadir Película"
 
 msgctxt "#50004"
-msgid "Vista General de Etiquetas"
-msgstr ""
+msgid "Tag Overview"
+msgstr "Vista General de Etiquetas"
 
 msgctxt "#50005"
-msgid "                                                          ETIQUETAS"
-msgstr ""
+msgid "                                                          TAGS"
+msgstr "                                                          ETIQUETAS"
 
 msgctxt "#50006"
-msgid "MUSICA"
-msgstr ""
+msgid "MUSIC"
+msgstr "VCLIPS"
 
 msgctxt "#50007"
-msgid "PELICULAS"
-msgstr ""
+msgid "MOVIES"
+msgstr "PELICULAS"
 
 msgctxt "#50008"
-msgid "SERIES"
-msgstr ""
+msgid "TV"
+msgstr "SERIES"
 
 msgctxt "#50009"
-msgid "PELICULAS ASIGNADAS"
-msgstr ""
-
+msgid "Assigned Movies"
+msgstr "Películas asignadas"
 
 msgctxt "#50010"
-msgid "Mostrar Películas etiquetadas"
-msgstr ""
+msgid "Show tagged Movies"
+msgstr "Mostrar Películas etiquetadas"
 
 msgctxt "#50011"
-msgid "Mostrar Series etiquetadas"
-msgstr ""
+msgid "Show tagged TV Shows"
+msgstr "Mostrar Series etiquetadas"
 
 msgctxt "#50012"
-msgid "Mostrar Videoclips etiquetados"
-msgstr ""
+msgid "Show tagged Music Videos"
+msgstr "Mostrar Videoclips etiquetados"
 
 msgctxt "#50013"
-msgid "Eliminar esta etiqueta"
-msgstr ""
+msgid "Delete this tag"
+msgstr "Eliminar esta etiqueta"
 
 msgctxt "#50014"
-msgid "Haz una selección"
-msgstr ""
+msgid "Make a selection"
+msgstr "Haz una selección"
 
 msgctxt "#50015"
-msgid "Administración de Etiquetas"
-msgstr ""
+msgid "Tag Management"
+msgstr "Administración de Etiquetas"
 
 msgctxt "#50016"
-msgid "No implementado"
-msgstr ""
+msgid "Not implemented"
+msgstr "No implementado"
 
 msgctxt "#50017"
-msgid "Sin Etiqueta"
-msgstr ""
+msgid "No Tag"
+msgstr "Sin Etiqueta"
 
 msgctxt "#50018"
-msgid "Añadir Videoclip"
-msgstr ""
+msgid "Add Music Video"
+msgstr "Añadir Videoclip"
 
 msgctxt "#50019"
-msgid "Añadir Serie"
-msgstr ""
+msgid "Add TV Show"
+msgstr "Añadir Serie"
 
 msgctxt "#50020"
-msgid "Opciones Generales"
-msgstr ""
+msgid "General Settings"
+msgstr "Opciones Generales"
 
 msgctxt "#50021"
-msgid "¿Usar database MySQL?"
-msgstr ""
+msgid "Use MySQL-Database?"
+msgstr "¿Usar database MySQL?"
 
 msgctxt "#50022"
-msgid "Usuario MySQL"
-msgstr ""
+msgid "MySQL User"
+msgstr "Usuario MySQL"
 
 msgctxt "#50023"
-msgid "Contraseña de MySQL"
-msgstr ""
+msgid "MySQL Password"
+msgstr "Contraseña de MySQL"
 
 msgctxt "#50024"
-msgid "Dirección Host"
-msgstr ""
+msgid "Host address"
+msgstr "Dirección Host"
     
+msgctxt "#50024"
+msgid "Port"
+msgstr "Puerto"
 
-    
+msgctxt "#50025"
+msgid "Please confirm"
+msgstr "Confirma"

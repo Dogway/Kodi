@@ -1,121 +1,125 @@
 # Kodi Media Center language file
 # Addon Name: Tag Overview
-# Addon id: script.tagoverview
+# Addon id: script.tagoverview-nexus
 msgid ""
 msgstr ""
 
 msgctxt "#32000"
 msgid "Tags"
-msgstr ""
+msgstr "Tags"
 
 msgctxt "#32001"
 msgid "Select Tags"
-msgstr ""
+msgstr "Select Tags"
 
 msgctxt "#40025"
 msgid "Are you sure?"
-msgstr ""
+msgstr "Are you sure?"
 
 msgctxt "#50000"
 msgid "New Tag"
-msgstr ""
+msgstr "New Tag"
 
 msgctxt "#50001"
 msgid "Filename"
-msgstr ""
+msgstr "Filename"
 
 msgctxt "#50002"
 msgid "Add Tags"
-msgstr ""
+msgstr "Add Tags"
 
 msgctxt "#50003"
 msgid "Add Movie"
-msgstr ""
+msgstr "Add Movie"
 
 msgctxt "#50004"
 msgid "Tag Overview"
-msgstr ""
+msgstr "Tag Overview"
 
 msgctxt "#50005"
 msgid "                                                          TAGS"
-msgstr ""
+msgstr "                                                          TAGS"
 
 msgctxt "#50006"
 msgid "MUSIC"
-msgstr ""
+msgstr "MUSICV"
 
 msgctxt "#50007"
 msgid "MOVIES"
-msgstr ""
+msgstr "MOVIES"
 
 msgctxt "#50008"
 msgid "TV"
-msgstr ""
+msgstr "TV"
 
 msgctxt "#50009"
 msgid "Assigned Movies"
-msgstr ""
-
+msgstr "Assigned Movies"
 
 msgctxt "#50010"
 msgid "Show tagged Movies"
-msgstr ""
+msgstr "Show tagged Movies"
 
 msgctxt "#50011"
 msgid "Show tagged TV Shows"
-msgstr ""
+msgstr "Show tagged TV Shows"
 
 msgctxt "#50012"
 msgid "Show tagged Music Videos"
-msgstr ""
+msgstr "Show tagged Music Videos"
 
 msgctxt "#50013"
 msgid "Delete this tag"
-msgstr ""
+msgstr "Delete this tag"
 
 msgctxt "#50014"
 msgid "Make a selection"
-msgstr ""
+msgstr "Make a selection"
 
 msgctxt "#50015"
 msgid "Tag Management"
-msgstr ""
+msgstr "Tag Management"
 
 msgctxt "#50016"
 msgid "Not implemented"
-msgstr ""
+msgstr "Not implemented"
 
 msgctxt "#50017"
 msgid "No Tag"
-msgstr ""
+msgstr "No Tag"
 
 msgctxt "#50018"
 msgid "Add Music Video"
-msgstr ""
+msgstr "Add Music Video"
 
 msgctxt "#50019"
 msgid "Add TV Show"
-msgstr ""
+msgstr "Add TV Show"
 
 msgctxt "#50020"
 msgid "General Settings"
-msgstr ""
+msgstr "General Settings"
 
 msgctxt "#50021"
 msgid "Use MySQL-Database?"
-msgstr ""
+msgstr "Use MySQL-Database?"
 
 msgctxt "#50022"
 msgid "MySQL User"
-msgstr ""
+msgstr "MySQL User"
 
 msgctxt "#50023"
 msgid "MySQL Password"
-msgstr ""
+msgstr "MySQL Password"
 
 msgctxt "#50024"
 msgid "Host address"
-msgstr ""
+msgstr "Host address"
     
+msgctxt "#50024"
+msgid "Port"
+msgstr "Port"
 
-    
+msgctxt "#50025"
+msgid "Please confirm"
+msgstr "Please confirm"
