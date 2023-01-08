@@ -4,6 +4,9 @@
 	<rule field="videoaspect" operator="lessthan">
 		<value>1.91</value>
 	</rule>
+	<rule field="videoaspect" operator="greaterthan">
+		<value>1.40</value>
+	</rule>
 	<rule field="videoresolution" operator="greaterthan">
 		<value>577</value>
 	</rule>
