@@ -1,8 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<node type="filter">
+<node type="filter" order="160">
 	<label>Superheroes</label>
 	<content>movies</content>
 	<rule field="tag" operator="contains">
+		<value>superheroes</value>
+	</rule>
+	<rule field="tag" operator="contains">
 		<value>superhero</value>
 	</rule>
+	<match>any</match>
 </node>

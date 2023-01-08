@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<node type="filter">
+<node type="filter" order="90">
 	<label>IMAX</label> <!-- or Open Matte -->
 	<content>movies</content>
 	<rule field="videoaspect" operator="lessthan">

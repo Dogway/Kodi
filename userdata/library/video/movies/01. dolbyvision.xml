@@ -1,8 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<node type="filter">
+<node type="filter" order="100">
 	<label>Dolby Vision</label>
 	<content>movies</content>
 	<rule field="tag" operator="is">
 		<value>DV</value>
+	</rule>
+	<rule field="filename" operator="contains">
+		<value>.DV.</value>
+	</rule>
+	<match>any</match>
+	<rule field="filename" operator="contains">
+		<value>Vision.</value>
+	</rule>
+	<rule field="filename" operator="contains">
+		<value>DoVi</value>
 	</rule>
 </node>

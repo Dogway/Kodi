@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<node visible="Library.HasContent(Movies)">
+<node visible="Library.HasContent(Movies)" order="50">
 	<label>Decades</label>
 	<icon>DefaultMovies.png</icon>
 </node>

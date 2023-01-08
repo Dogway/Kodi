@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<node type="filter">
+<node type="filter" order="10">
 	<label>- ALL -</label>
 	<content>movies</content>
 	<rule field="dateadded" operator="after">

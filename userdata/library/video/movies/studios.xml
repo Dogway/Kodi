@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<node order="6" type="filter">
+<node order="270" type="filter">
 	<label>20388</label>
 	<icon>DefaultStudios.png</icon>
 	<content>movies</content>

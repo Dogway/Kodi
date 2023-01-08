@@ -1,8 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<node type="filter">
+<node type="filter" order="110">
 	<label>Extended</label>
 	<content>movies</content>
 	<rule field="tag" operator="contains">
 		<value>Extended</value>
 	</rule>
+	<rule field="filename" operator="contains">
+		<value>extended</value>
+	</rule>
+	<rule field="filename" operator="contains">
+		<value>.Cut.</value>
+	</rule>
+	<rule field="filename" operator="contains">
+		<value>Director's</value>
+	</rule>
+	<match>any</match>
 </node>

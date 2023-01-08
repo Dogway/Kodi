@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<node type="filter">
+<node type="filter" order="40">
 	<label>- To Watch -</label>
 	<content>movies</content>
 	<rule field="playcount" operator="is">

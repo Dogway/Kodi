@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<node type="filter">
+<node type="filter" order="80">
 	<label>480p</label>
 	<content>movies</content>
 	<rule field="videoresolution" operator="lessthan">

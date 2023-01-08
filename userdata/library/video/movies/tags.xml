@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<node order="9" type="filter">
+<node order="300" type="filter">
 	<label>20459</label>
 	<icon>DefaultTags.png</icon>
 	<content>movies</content>

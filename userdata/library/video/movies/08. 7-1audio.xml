@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<node type="filter">
+<node type="filter" order="200">
 	<label>7.1 Audio</label>
 	<content>movies</content>
 	<rule field="audiochannels" operator="contains">

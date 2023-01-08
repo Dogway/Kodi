@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<node type="filter">
+<node type="filter" order="120">
 	<label>Biopic</label>
 	<content>movies</content>
 	<rule field="tag" operator="contains">
@@ -11,4 +10,5 @@
 	<rule field="tag" operator="contains">
 		<value>biopic</value>
 	</rule>
+	<match>any</match>
 </node>
