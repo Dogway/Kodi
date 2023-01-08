@@ -37,8 +37,8 @@
     </excludefromscan>
   </video>
   <network>
-    <buffermode>1</buffermode>                       <!-- Default: 1 -->
-    <readbufferfactor>1.5</readbufferfactor>           <!-- Default: 4 -->
+    <buffermode>1</buffermode>                          <!-- Default: 1 -->
+    <readbufferfactor>1.5</readbufferfactor>            <!-- Default: 4 -->
     <cachemembuffersize>104857600</cachemembuffersize>  <!-- Default: 0, cache written to disk not ram -->
   </network>
 <splash>false</splash>
