@@ -37,6 +37,8 @@ I also uploaded a modified version of the 'Tag Overview' addon that works on Nex
 ### Tag Overview
 *   Make it work back on Nexus/Omega
 *   Update GUI to current Estuary
+*   Added Spanish translation
 ### Node Editor
 *   Add option to sort by My Rating (userrating)
 *   Add some default convenience nodes (ALL, Rating, To Watch, 4k, 720p, SD, decades, superheroes, etc)
+*   Improve Spanish translation
