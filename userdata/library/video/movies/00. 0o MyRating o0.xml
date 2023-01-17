@@ -1,0 +1,15 @@
+<node type="filter" order="30">
+	<label>- My Rating -</label>
+	<content>movies</content>
+	<match>all</match>
+	<order direction="descending">userrating</order> <!-- Requires my updated library.nodes plugin -->
+	<rule field="set" operator="doesnotcontain">
+		<value>Collection</value>
+	</rule>
+	<rule field="set" operator="doesnotcontain">
+		<value>Colección</value>
+	</rule>
+	<rule field="userrating" operator="greaterthan">
+		<value>0</value>
+	</rule>
+</node>

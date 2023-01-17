@@ -1,13 +1,13 @@
 <node type="filter" order="100">
 	<label>Dolby Vision</label>
 	<content>movies</content>
+	<match>any</match>
 	<rule field="tag" operator="is">
 		<value>DV</value>
 	</rule>
 	<rule field="filename" operator="contains">
 		<value>.DV.</value>
 	</rule>
-	<match>any</match>
 	<rule field="filename" operator="contains">
 		<value>Vision.</value>
 	</rule>

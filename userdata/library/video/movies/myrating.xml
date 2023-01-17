@@ -1,9 +1,0 @@
-<node type="filter" order="30">
-	<label>- My Rating -</label>
-	<content>movies</content>
-	<order direction="descending">rating</order>
-	<rule field="set" operator="doesnotcontain">
-		<value>Collection</value>
-	</rule>
-	<limit>300</limit>
-</node>

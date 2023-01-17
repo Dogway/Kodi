@@ -1,7 +1,11 @@
 <node type="filter" order="180">
 	<label>OV</label>
 	<content>movies</content>
+	<match>any</match>
 	<rule field="tag" operator="is">
 		<value>original-version</value>
+	</rule>
+	<rule field="tag" operator="is">
+		<value>version-original</value>
 	</rule>
 </node>

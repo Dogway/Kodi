@@ -1,11 +1,11 @@
 <node type="filter" order="140" >
 	<label>Sword &amp; Sandal</label>
 	<content>movies</content>
+	<match>any</match>
 	<rule field="tag" operator="is">
 		<value>Sword &amp; Sandal</value>
 	</rule>
 	<rule field="tag" operator="contains">
 		<value>peplum</value>
 	</rule>
-	<match>any</match>
 </node>

@@ -1,6 +1,7 @@
 <node type="filter" order="110">
 	<label>Extended</label>
 	<content>movies</content>
+	<match>any</match>
 	<rule field="tag" operator="contains">
 		<value>Extended</value>
 	</rule>
@@ -13,5 +14,4 @@
 	<rule field="filename" operator="contains">
 		<value>Director's</value>
 	</rule>
-	<match>any</match>
 </node>

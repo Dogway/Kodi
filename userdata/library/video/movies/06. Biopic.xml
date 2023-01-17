@@ -1,6 +1,7 @@
 <node type="filter" order="120">
 	<label>Biopic</label>
 	<content>movies</content>
+	<match>any</match>
 	<rule field="tag" operator="contains">
 		<value>true story</value>
 	</rule>
@@ -10,5 +11,4 @@
 	<rule field="tag" operator="contains">
 		<value>biopic</value>
 	</rule>
-	<match>any</match>
 </node>

@@ -1,6 +1,7 @@
 <node type="filter" order="130">
 	<label>Period</label>
 	<content>movies</content>
+	<match>any</match>
 	<rule field="tag" operator="startswith">
 		<value>period</value>
 	</rule>
@@ -10,5 +11,4 @@
 	<rule field="tag" operator="contains">
 		<value>18th century</value>
 	</rule>
-	<match>any</match>
 </node>
