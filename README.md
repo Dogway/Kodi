@@ -30,9 +30,9 @@ I also uploaded a modified version of the 'Tag Overview' addon that works on Nex
 *   Remove some horizontal slider sections (recently added/watched/InProgress)
 *   Replace video/music info icons
 *   Nodes list increased from 20 to 25
-*   Added Artist to Musicvideos
-*   Reordered MusicVideo title to "Artist - Song"
-*   Remove watched for musicvideos
+*   Change MusicVideo title to "Artist - Song"
+*   Added Artist to Musicvideos thumbs
+*   Remove watched flag for Musicvideos
 *   Add 16:10 entry for Tablets
 ### Tag Overview
 *   Make it work back on Nexus/Omega
