@@ -102,11 +102,11 @@ msgstr "Opciones Generales"
 
 msgctxt "#50021"
 msgid "Use MySQL-Database?"
-msgstr "¿Usar database MySQL?"
+msgstr "¿Usar base de datos MySQL?"
 
 msgctxt "#50022"
 msgid "MySQL User"
-msgstr "Usuario MySQL"
+msgstr "Usuario de MySQL"
 
 msgctxt "#50023"
 msgid "MySQL Password"
