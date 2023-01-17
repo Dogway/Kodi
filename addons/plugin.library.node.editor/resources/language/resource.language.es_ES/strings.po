@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: XBMC Addons\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-02-27 11:13+0000\n"
-"Last-Translator: Alfonso Cachero <alfonso.cachero@gmail.com>\n"
+"PO-Revision-Date: 2023-01-13 11:13+0000\n"
+"Last-Translator: Dogway\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-add-ons-program/plugin-library-node-editor/es_es/>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 msgctxt "Addon Summary"
 msgid "Manage custom library nodes."
-msgstr "Gestionar nodos de colecciones personalizadas."
+msgstr "Gestionar nodos de librerías personalizadas."
 
 msgctxt "Addon Description"
 msgid "Create and edit custom library nodes."
-msgstr "Crear y editar nodos de colecciones personalizadas."
+msgstr "Crear y editar nodos de librerías personalizadas."
 
 # Menu items
 msgctxt "#30000"
@@ -36,7 +36,7 @@ msgstr "Añadir ruta..."
 
 msgctxt "#30002"
 msgid "Add order..."
-msgstr "Añadir pedido..."
+msgstr "Añadir orden..."
 
 msgctxt "#30003"
 msgid "Add limit..."
@@ -60,7 +60,7 @@ msgstr "Nuevo nodo padre..."
 
 msgctxt "#30008"
 msgid "Reset library nodes to default..."
-msgstr "Reinicializar nodos de colección a por defecto..."
+msgstr "Reinicializar nodos de librería a valores por defecto..."
 
 msgctxt "#30009"
 msgid "Add component..."
@@ -72,11 +72,11 @@ msgstr "Editar manualmente..."
 
 msgctxt "#30091"
 msgid "Video Library"
-msgstr "Vídeoteca"
+msgstr "Librería de Videos"
 
 msgctxt "#30092"
 msgid "Music Library"
-msgstr "Biblioteca de Música"
+msgstr "Librería de Música"
 
 msgctxt "#30100"
 msgid "Delete"
@@ -108,7 +108,7 @@ msgstr "Añadir al menú principal"
 
 msgctxt "#30107"
 msgid "Browse for value"
-msgstr "Buscar un valor"
+msgstr "Buscar valor"
 
 msgctxt "#30200"
 msgid "Content"
@@ -116,7 +116,7 @@ msgstr "Contenido"
 
 msgctxt "#30201"
 msgid "Order"
-msgstr "Pedido"
+msgstr "Orden"
 
 msgctxt "#30202"
 msgid "Grouping"
@@ -140,15 +140,15 @@ msgstr "Coincidencia"
 
 msgctxt "#30300"
 msgid "Set name"
-msgstr "Poner nombre"
+msgstr "Establecer nombre"
 
 msgctxt "#30301"
 msgid "Set visibility condition"
-msgstr "Poner condición de visibilidad"
+msgstr "Establecer condición de visibilidad"
 
 msgctxt "#30302"
 msgid "Set order index"
-msgstr "Poner índice de pedido"
+msgstr "Establecer índice de orden"
 
 msgctxt "#30303"
 msgid "Name of new parent node"
@@ -156,7 +156,7 @@ msgstr "Nombre del nuevo nodo padre"
 
 msgctxt "#30304"
 msgid "Start with defaults"
-msgstr "Empezar con opciones por defecto"
+msgstr "Iniciar con valores por defecto"
 
 msgctxt "#30305"
 msgid "Field"
@@ -208,7 +208,7 @@ msgstr "Nombre del nuevo nodo"
 
 msgctxt "#30317"
 msgid "Retrieving values..."
-msgstr "Recuperando valores..."
+msgstr "Obteniendo valores..."
 
 msgctxt "#30318"
 msgid "Property"
@@ -216,7 +216,7 @@ msgstr "Propiedad"
 
 msgctxt "#30400"
 msgid "Unable to copy default library nodes"
-msgstr "Imposible copiar nodos de colección por defecto"
+msgstr "No se pudieron copiar los nodos por defecto de la librería"
 
 msgctxt "#30401"
 msgid "Are you sure you want to delete this node?"
@@ -232,7 +232,7 @@ msgstr "¿Está seguro de quiere borrar esta propiedad?"
 
 msgctxt "#30404"
 msgid "Content parameter can't be deleted whilst this node still has an Order, Limit or Rule parameter."
-msgstr "El parámetro de contenido no se puede eliminar mientras este nodo aún tenga un parámetro de Pedido, Límite o Regla."
+msgstr "El parámetro Contenido no se puede eliminar mientras este nodo aún tenga un parámetro de Orden, Límite o Regla."
 
 msgctxt "#30405"
 msgid "Are you sure you want to delete this rule?"
@@ -240,7 +240,7 @@ msgstr "¿Está seguro de que quiere borrar esta regla?"
 
 msgctxt "#30406"
 msgid "Order requires a Content parameter"
-msgstr "Pedido requiere un parámetro de Contenido"
+msgstr "Orden requiere el parámetro de Contenido"
 
 msgctxt "#30407"
 msgid "Are you sure you want to delete this component?"
@@ -252,11 +252,11 @@ msgstr "Propiedad personalizada..."
 
 msgctxt "#30409"
 msgid "No options to select from were found"
-msgstr "No se encontraron opciones a elegir"
+msgstr "No se encontraron opciones para la selección"
 
 msgctxt "#30410"
 msgid "Getting plugin listings..."
-msgstr "Obteniendo listados de plugin..."
+msgstr "Obteniendo listados del plugin..."
 
 msgctxt "#30411"
 msgid "Link path to here"
@@ -264,31 +264,31 @@ msgstr "Enlazar ruta a aquí"
 
 msgctxt "#30500"
 msgid "Genre ID"
-msgstr "ID Género"
+msgstr "ID de Género"
 
 msgctxt "#30501"
 msgid "Country ID"
-msgstr "ID País"
+msgstr "ID de País"
 
 msgctxt "#30502"
 msgid "Studio ID"
-msgstr "ID Estudio"
+msgstr "ID de Estudio"
 
 msgctxt "#30503"
 msgid "Director ID"
-msgstr "ID Director"
+msgstr "ID de Director"
 
 msgctxt "#30504"
 msgid "Actor ID"
-msgstr "ID Actor"
+msgstr "ID de Actor"
 
 msgctxt "#30505"
 msgid "Set ID"
-msgstr "Poner ID"
+msgstr "ID de Set"
 
 msgctxt "#30506"
 msgid "Tag ID"
-msgstr "ID Etiqueta"
+msgstr "ID de Etiqueta"
 
 msgctxt "#30507"
 msgid "TV Show ID"
@@ -296,19 +296,19 @@ msgstr "ID Programa de TV"
 
 msgctxt "#30508"
 msgid "Artist ID"
-msgstr "ID Intérprete"
+msgstr "ID de Intérprete"
 
 msgctxt "#30509"
 msgid "Album ID"
-msgstr "ID Álbum"
+msgstr "ID de Álbum"
 
 msgctxt "#30510"
 msgid "Role ID"
-msgstr "ID Papel"
+msgstr "ID de Rol"
 
 msgctxt "#30511"
 msgid "Song ID"
-msgstr "ID Canción"
+msgstr "ID de Canción"
 
 msgctxt "#30512"
 msgid "Album artists only"
@@ -316,7 +316,7 @@ msgstr "Solo intérpretes de álbum"
 
 msgctxt "#30513"
 msgid "Show singles"
-msgstr "Mostrar singles"
+msgstr "Mostrar sencillos"
 
 msgctxt "#30514"
 msgid "Plugin..."
