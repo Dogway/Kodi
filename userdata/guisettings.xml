@@ -158,7 +158,7 @@
     <setting id="slideshow.displayeffects" default="true">true</setting>
     <setting id="slideshow.shuffle" default="true">false</setting>
     <setting id="slideshow.highqualitydownscaling">true</setting>
-    <setting id="locale.audiolanguage">Spanish</setting>
+    <setting id="locale.audiolanguage">English</setting>
     <setting id="videoplayer.preferdefaultflag">false</setting>
     <setting id="locale.subtitlelanguage" default="true">original</setting>
     <setting id="accessibility.audiovisual" default="true">false</setting>
