@@ -59,6 +59,13 @@
 			<episodes>True</episodes>
 			<operator>numeric</operator>
 		</match>
+		<match name="appearances">
+			<label>38026</label>
+			<movies>True</movies>
+			<tvshows>True</tvshows>
+			<episodes>True</episodes>
+			<operator>numeric</operator>
+		</match>
 		<match name="time">
 			<label>180</label>
 			<movies>True</movies>
