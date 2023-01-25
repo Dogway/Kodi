@@ -8,6 +8,14 @@
 			<operator>string</operator>
 			<browse>True</browse>
 		</match>
+		<match name="artist/years">
+			<label>21898</label>
+			<artists>True</artists>
+			<albums>True</albums>
+			<songs>True</songs>
+			<operator>string</operator>
+			<browse>True</browse>
+		</match>
 		<match name="genre">
 			<label>515</label>
 			<artists>True</artists>
