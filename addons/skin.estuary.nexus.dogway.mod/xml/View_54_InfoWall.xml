@@ -391,7 +391,7 @@
 					<control type="group">
 						<depth>DepthContentPopout</depth>
 						<left>30</left>
-						<animation effect="zoom" start="100" end="110" time="200" tween="sine" easing="inout" center="190,300">Focus</animation>
+						<animation effect="zoom" start="100" end="115" time="200" tween="sine" easing="inout" center="190,300">Focus</animation>
 						<animation effect="zoom" start="110" end="100" time="200" tween="sine" easing="inout" center="190,300">UnFocus</animation>
 						<top>120</top>
 						<include content="InfoWallMovieLayout">
@@ -453,7 +453,7 @@
 						<depth>DepthContentPopout</depth>
 						<left>0</left>
 						<top>150</top>
-						<animation effect="zoom" start="100" end="110" time="200" tween="sine" easing="inout" center="180,330">Focus</animation>
+						<animation effect="zoom" start="100" end="115" time="200" tween="sine" easing="inout" center="180,330">Focus</animation>
 						<animation effect="zoom" start="110" end="100" time="200" tween="sine" easing="inout" center="180,330">UnFocus</animation>
 						<include content="InfoWallPictureLayout">
 							<param name="focused" value="true" />
