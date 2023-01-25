@@ -9,9 +9,12 @@
 		<value>extended</value>
 	</rule>
 	<rule field="filename" operator="contains">
-		<value>.Cut.</value>
+		<value>Final.Cut</value>
 	</rule>
 	<rule field="filename" operator="contains">
-		<value>Director's</value>
+		<value>Ultimate.Cut</value>
+	</rule>
+	<rule field="filename" operator="contains">
+		<value>Director</value>
 	</rule>
 </node>
