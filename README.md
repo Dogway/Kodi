@@ -6,11 +6,13 @@ Also includes a "mod" of Estuary that includes 'year', 'rating' and 'my rating' 
 
 I also uploaded a modified version of the 'Tag Overview' addon that works on Nexus, and revamped its GUI. I rely on this addon quite a lot to tag movies so they go into their own Nodes (I also supplied a few default nodes that might be of your interest, aside from the bundled ones)
 
+For any question or discussion follow the Kodi [thread](https://forum.kodi.tv/showthread.php?tid=371116).
+
+
 ![](https://github.com/Dogway/Kodi/blob/main/images/A_logos.png)
 
 ![](https://github.com/Dogway/Kodi/blob/main/images/B_collections.png)
 
-For any question or discussion follow the Kodi ![thread](https://forum.kodi.tv/showthread.php?tid=371116).
 
 ------
 
