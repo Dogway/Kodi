@@ -10,6 +10,8 @@ I also uploaded a modified version of the 'Tag Overview' addon that works on Nex
 
 ![](https://github.com/Dogway/Kodi/blob/main/images/B_collections.png)
 
+For any question or discussion follow the Kodi ![thread](https://forum.kodi.tv/showthread.php?tid=371116).
+
 ------
 
 ## Full Changelog:
