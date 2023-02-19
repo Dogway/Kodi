@@ -1,5 +1,5 @@
 <node type="filter" order="20">
-	<label>- Rating -</label>
+	<label>- TopRated -</label>
 	<content>movies</content>
 	<rule field="rating" operator="greaterthan">
 		<value>7.7</value>
