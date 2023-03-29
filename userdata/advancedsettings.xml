@@ -22,6 +22,7 @@
     <playcountminimumpercent>85</playcountminimumpercent>
     <ignoresecondsatstart>1500</ignoresecondsatstart>
     <ignorepercentatend>15</ignorepercentatend>
+  <cleandatetime>(.*[^ _\,\.\(\[\-])[ _\.\(\[\-]+(19[0-9][0-9]|20[0-9][0-9])([ _\,\.\)\]\-]|[^0-9]$)?</cleandatetime>
   <cleanstrings>
    <regexp>[ _\,\.\(\)\[\]\-\+](h264|h265|hevc|m1080p|m720p|x264|x265|xvid|xvidvd|1080i|1080p|10bit|2160p|480i|480p|576i|576p|720i|720p|aac.2.0|aac.5.1|aac 2.0|aac 5.1|aac|ac3.2.0|ac3.5.1|ac3 2.0|ac3 5.1|ac3|amiable|dv.atmos|atmos|bdremux|bd.remux|bd5|bdrip|bluray|brrip|by.geot|geot|castellano|chd|custom|ddp5.1|director's.cut|divx|divx5|amzn|atvp|hmax|dsnp|dn+|disney+|nf|dsr|dsrip|dts-hd ma 7.1|dts-hd ma|dts-hd.ma.7.1|dts-hd.ma|dts|dual|dvd5|dvd9|dvdivx|dvdremux|dvdrip|dvdscr|dvdscreener|dvd|edition|extended|fgt|fragment|hddvd|hdgroup|hdrip|hdtvrip|hdtv|hdr|hrhdtv|hrhd|imax|internal|ita|kk650|lchd|limited|vhsrip|hi10p|l5.1|l5.0|r2j|mkv|mp3 2.0|mp3|multisubs|nfofix|ntsc|ogg|ogm|open-matte|open.matte|open matte|pal|pdtv|rarbg|rated|read.nfo|regraded|remastered|remux|repack|rerip|retail|screener|sdr|sparks|subs|svcd|swedish|swtyblz|telecine|telesync|truehd.7.1|truehd|proper|uhd|uncensored|censored|uncut|unrated|vc1|web-dl|webrip|web|spanish|esp|german|ws|se|tc|xxx|3d|ts|r3|r5|cam|dc|fs|dv|vision|english|español|aka|dutch|ger|ingles|hd|www.www|cd[1-9]|\[.*\])([ _\,\.\(\)\[\]\-]|$)</regexp>
    <regexp>(\[.*\])</regexp>
@@ -29,17 +30,17 @@
   <tvshowmatching>
 //  <regexp>s([0-9]+)[ ._x-]*e([0-9]+(?:(?:[a-i]|\\.[1-9])(?![0-9]))?)([^\\\\/]*)$</regexp>  <!-- foo.s01.e01, foo.s01_e01, S01E02 foo, S01 - E02, S01xE02 -->
     <regexp>s([0-9]+)[ ._x-]*e([0-9]+)[ ._-]([^\\\\/]*)$</regexp>                            <!-- s01.e01, s01_e01, S01E02 foo, S01 - E02, S01xE02 -->
-    <regexp>([0-9]+)x([0-9]+)([^\\/]*)$</regexp>   <!-- 1x09 -->
-    <regexp>[Ee][Pp]_?([0-9]+)([^\\/]*)$</regexp>  <!-- ep01, EP_01 -->
+    <regexp>([0-9]+)x([0-9]+)([^\\/]*)$</regexp>       <!-- 1x09 -->
+    <regexp>[Ee][Pp]_?([0-9]+)([^\\/]*)$</regexp>      <!-- ep01, EP_01 -->
   </tvshowmatching>
     <excludefromscan>
-      <regexp>\.*[E|e]xtra[s]?\.*</regexp>         <!-- Add here movie extras, covers, etc -->
+      <regexp>\.*[E|e]xtra[s]?\.*</regexp>             <!-- Add here movie extras, covers, etc -->
     </excludefromscan>
   </video>
   <network>
-    <buffermode>1</buffermode>                          <!-- Default: 1 -->
-    <readbufferfactor>1.5</readbufferfactor>            <!-- Default: 4 -->
-    <cachemembuffersize>104857600</cachemembuffersize>  <!-- Default: 0, cache written to disk not ram -->
+    <buffermode>1</buffermode>                         <!-- Default: 1 -->
+    <readbufferfactor>1.5</readbufferfactor>           <!-- Default: 4 -->
+    <cachemembuffersize>104857600</cachemembuffersize> <!-- Default: 0, cache written to disk not ram -->
   </network>
 <splash>false</splash>
 </advancedsettings>
