@@ -1,0 +1,5 @@
+<node order="40" type="filter" visible="Library.HasContent(Music)">
+	<label>132</label>
+	<icon>DefaultMusicAlbums.png</icon>
+	<content>albums</content>
+</node>

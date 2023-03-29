@@ -1,0 +1,6 @@
+<node order="70" type="filter" visible="Library.HasContent(Music)">
+	<label>652</label>
+	<icon>DefaultMusicYears.png</icon>
+	<content>albums</content>
+	<group>years</group>
+</node>

@@ -1,0 +1,5 @@
+<node order="50" type="folder" visible="Library.HasContent(Singles)">
+	<label>1050</label>
+	<icon>DefaultMusicSongs.png</icon>
+	<path>musicdb://singles/</path>
+</node>
